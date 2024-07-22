@@ -1,4 +1,4 @@
-# Reti Neurali in Matlab - Assegnamento
+# Reti Neurali in Matlab
 
 ## Descrizione dell'Assegnamento
 
