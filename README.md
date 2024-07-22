@@ -39,11 +39,6 @@ Il terzo compito richiede di implementare un autoencoder in Matlab. Il set di da
 Dal set MNIST, è necessario estrarre solo due classi (ovvero cifre) alla volta e fornirle come un unico set di input all'autoencoder. Poiché il set è piuttosto grande, dai due set di classi viene estratto casualmente un numero fisso di osservazioni (il valore predefinito è 250 per ciascun set di classi), per velocizzare l'esecuzione.
 
 Le due classi selezionate non sono casuali. Per questo compito, al fine di evidenziare le prestazioni dell'autoencoder, alcune coppie di cifre sono facilmente distinguibili, mentre altre possono essere molto più difficili. Le coppie di classi sono:
-
-## Classi
-
-Le classi incluse nel progetto sono rappresentate come coppie:
-
 - Classe 1 e Classe 6
 - Classe 3 e Classe 8
 - Classe 1 e Classe 7
@@ -58,8 +53,3 @@ Infine, il programma traccia l'output dei due neuroni nascosti, uno per asse. I 
 
 Se i due set di forme e colori diversi sono distanti tra loro, significa che l'autoencoder ha imparato bene. Altrimenti, se i due set sono mescolati, significa che il processo di apprendimento è stato più confuso e le due classi non sono distinguibili.
 
-## Dati e Video
-
-Nel repository sono inclusi:
-- Un file in formato Excel per visualizzare i dati.
-- Un video che mostra effettivamente il progetto in azione, scaricabile dai file caricati.
